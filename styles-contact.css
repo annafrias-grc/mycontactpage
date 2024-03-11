@@ -171,6 +171,7 @@ body {
 	background: #f7f3eaee;
 	/*this uses opacity of 75% for the background color*/
 	text-align: center;
+	border-radius: 50px 50px 50px 50px; /* ------ rounded corners ------*/
 }
 
 /* #rcorners1 {
@@ -184,15 +185,15 @@ body {
 
 #logo {
 	margin-bottom: 80%;
-	/*------This is for responsiveness----------*/
 	margin: 0px auto 10px auto;
-	margin-left: 70px;
+	margin-left: 50px;
 	/*-------- logo wasn't centered with class center so I used this to fix it*/
 	/* This is to fix size of green box*/
 	/* border: 3px dashed red; */
 	text-align: center;
 	inline-size: 320px;
 	opacity: 0.8; /* ------- opacity of logo -------*/
+	width: 40%; 	/*------This is for responsiveness----------*/
 }
 
 h1 {

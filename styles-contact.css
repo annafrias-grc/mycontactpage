@@ -148,11 +148,12 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background-image: url("images/Vintage\ Roses\ BCK.jpg");
+	background-image: url("images/Vintage\ Roses\ BCK.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	
 
 }
 
@@ -164,19 +165,29 @@ body {
 } --- just thought this sounded cool might use later, scrollbar-color ---- */
 
 .center {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 	width: 40%;
 	/*------This is for responsiveness---------*/
 	padding: 5%;
 	margin: 50px auto;
-	background: #f7f3eaee;
+	background: rgba(247, 242, 233, 0.933);
 	/*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border-radius: 50px 50px 50px 50px; /* ------ rounded corners ------*/
 }
-
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 /* #rcorners1 {
 	border-radius: 15px;
-	background: #f7f3eaee;
+	background: #f7f3eaee;Vi
 	padding: 20px;
 	width: 200px;
 	height: 150px;
@@ -255,5 +266,7 @@ a {
 
 a:hover {
 	color: black;
-	background: pink;
+	background: #e5687db5;
+	letter-spacing: .20em;
+	border-radius: 15px 15px 15px 15px;
 }
